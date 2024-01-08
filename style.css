@@ -865,7 +865,12 @@
         .weather-box .description{
         margin-top: -14px;
         }
-       
+        .weather-box .temperature sup{
+          font-size: 20px;
+      position: absolute;
+      font-weight: 600;
+      margin-top: 31px;
+      }
 
       }
 
