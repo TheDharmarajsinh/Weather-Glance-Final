@@ -712,6 +712,7 @@
         font-size: 20px;
     position: absolute;
     font-weight: 600;
+    margin-top: 31px;
     }
     .weather-box .description{
         font-size: 20px;
