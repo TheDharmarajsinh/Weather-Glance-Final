@@ -843,8 +843,8 @@
           width:auto;
         }
         .box{
-          margin:37px 5px;
-          width:300px;
+          margin:15px 36px;
+          width:322px;
           height:auto;
         }
       .description p{
@@ -873,7 +873,38 @@
       }
 
       }
-
+      @media only screen and (max-width: 450px) {
+        body {
+          background-image: url(assets/hero-bg.png);
+          font-family: "Open Sans", sans-serif;
+          color: #444444;
+        }
+        
+        .weather-box{
+          margin-left:-37px;
+        }
+        .footer {
+          width: 100%;
+          background: #f6f9ff;
+          padding: 0 0 30px 0;
+          font-size: 14px;
+          margin-left:-297px;
+      
+        }
+        .footer .copyright {
+          text-align: center;
+          padding-top: 30px;
+          color: #012970;
+        }
+        
+        .footer .credits {
+          padding-top: 10px;
+          text-align: center;
+          font-size: 13px;
+          color: #012970;
+        }
+        
+      }
     .footer {
         width: 100%;
         background: #f6f9ff;
