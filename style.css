@@ -860,6 +860,9 @@
         }
         .weather-body .description{
           margin-top: 20px;
+        } 
+        .weather-box .description{
+        margin-top: -14px;
         }
        
 
