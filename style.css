@@ -858,6 +858,9 @@
           list-style: none;
           align-items: center;
         }
+        .weather-body .description{
+          margin-top: 20px;
+        }
        
 
       }
